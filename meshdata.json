@@ -1,0 +1,103 @@
+{
+    "meshes": [{
+            "elements": [{
+                "nodes": [{
+                    "id": 1,
+                    "BCType": "heat",
+                    "q": -150
+                },
+                {
+                    "id": 2,
+                    "BCType": null
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 2.5,
+                "LH": []
+            },
+            {
+                "nodes": [{
+                    "id": 2,
+                    "BCType": null
+                },
+                {
+                    "id": 3,
+                    "BCType": "conv",
+                    "alfa": 10,
+                    "t_inf": 400 
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 2.5,
+                "LH": []
+            }],
+            "H": [],
+            "P": [],
+            "t_final": []
+        },
+        {
+            "elements": [{
+                "nodes": [{
+                    "id": 1,
+                    "BCType": "heat",
+                    "q": -150
+                },
+                {
+                    "id": 2,
+                    "BCType": null
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 1.25,
+                "LH": []
+            },
+            {
+                "nodes": [{
+                    "id": 2,
+                    "BCType": null
+                },
+                {
+                    "id": 3,
+                    "BCType": null
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 1.25,
+                "LH": []
+            },
+            {
+                "nodes": [{
+                    "id": 2,
+                    "BCType": null
+                },
+                {
+                    "id": 3,
+                    "BCType": null
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 1.25,
+                "LH": []
+            },
+            {
+                "nodes": [{
+                    "id": 3,
+                    "BCType": null
+                },
+                {
+                    "id": 4,
+                    "BCType": "conv",
+                    "alfa": 10,
+                    "t_inf": 400 
+                }],
+                "k": 50,
+                "S": 2,
+                "L": 1.25,
+                "LH": []
+            }],
+            "H": [],
+            "P": [],
+            "t_final": []
+        }
+    ]
+}
