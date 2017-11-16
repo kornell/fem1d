@@ -1,0 +1,15 @@
+{
+  "name": "fem1d",
+  "version": "1.0.0",
+  "description": "1-dimentional finite element method heat transfer calculation written in ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kornell/fem1d"
+  },
+  "author": "Kornel Bobula",
+  "license": "ISC"
+}
